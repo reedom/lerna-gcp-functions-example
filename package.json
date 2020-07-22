@@ -1,0 +1,17 @@
+{
+  "name": "@asdf/lerna_test",
+  "author": "HANAI tohru <tohru@reedom.com>",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "typescript": "^3.9.6"
+  }
+}

@@ -1,0 +1,6 @@
+.envrc
+node_modules
+yarn-error.log
+lerna-debug.log
+index.js
+dist/

@@ -1,0 +1,17 @@
+{
+  "name": "@asdf/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "typescript": "^3.9.7"
+  }
+}
